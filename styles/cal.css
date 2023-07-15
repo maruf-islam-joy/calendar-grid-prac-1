@@ -1,0 +1,61 @@
+.cal-tit{
+    text-align: center;
+    margin: 40px;
+}
+.cal-tit-txt{
+    font-size: 35px;
+    font-family: 'Space Mono', monospace;
+}
+.tit-st{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 3px;
+}
+.tit-st:hover{
+    background-color: black;
+    color: bisque;
+    font-size: 45px;
+}
+
+.class-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    color: rgba(128, 128, 128, 0.612);
+}
+
+
+/* we used grid here  */
+.day{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 25px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 3px 10px 8px rgba(0, 0, 0, 0.452);
+    font-size: 35px;
+}
+.items:hover{
+    background-color: rgb(53, 49, 49);
+    color:bisque;
+}
+.ext{
+    background-color: rgba(245, 222, 179, 0.399);
+}
