@@ -1,3 +1,8 @@
+*{
+    font-family: 'Space Mono', monospace; 
+}
+
+
 .cal-tit{
     text-align: center;
     margin: 40px;
@@ -22,21 +27,11 @@
     justify-content: center;
     align-items: center;
 }
-footer{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-   
-}
-.foot{
-    position: fixed;
-    bottom: 0;
-    color: rgba(128, 128, 128, 0.612);
-}
+
 
 
 /* we used grid here  */
-.day{
+.date{
     display: grid;
     grid-template-columns: repeat(7,1fr);
     gap: 25px;
@@ -50,7 +45,12 @@ footer{
     border: none;
     border-radius: 8px;
     box-shadow: 2px 3px 10px 8px rgba(0, 0, 0, 0.452);
-    font-size: 35px;
+    font-size: 25px;
+}
+.day{
+    font-size: 20px;
+    background-color: rgb(246, 211, 160);
+    font-weight: 800;
 }
 .items:hover{
     background-color: rgb(53, 49, 49);
@@ -58,4 +58,17 @@ footer{
 }
 .ext{
     background-color: rgba(245, 222, 179, 0.399);
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    color: rgba(128, 128, 128, 0.612);
 }
